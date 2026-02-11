@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+@theme {
+  --background-image-hero: url('/mainbg.jpg');
+  --color-hue: rgb(0, 0, 139);
+}
