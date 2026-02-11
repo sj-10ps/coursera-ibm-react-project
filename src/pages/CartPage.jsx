@@ -1,12 +1,13 @@
 import React from "react";
 import PublicLayout from "../layouts/PublicLayout";
-import { useDispatch, useSelector } from "react-redux";
-import { removeItem, updateQuantity } from "../redux/Cartslice";
+import {  useSelector } from "react-redux";
+
 import { useNavigate } from "react-router-dom";
+import CartItem from "../components/CartItem";
 
 const CartPage = () => {
   const { cartData, totalAmount } = useSelector((state) => state.cart);
-  const dispatch=useDispatch()
+  
   const navigate=useNavigate()
 
   return (
@@ -19,27 +20,7 @@ const CartPage = () => {
         {cartData.length===0&&<>no data yet...</>}
         {cartData &&
           cartData.map((c) => (
-            <div
-              className="bg-white p-2 flex gap-8 shadow-lg rounded-lg"
-              key={c.id}
-            >
-              <img src={c.image} className="h-48 w-40"></img>
-              <div className="flex flex-col gap-2 mr-30">
-                <p className="text-md font-semibold capitalize">{c.name}</p>
-                <p className="text-slate-500">${c.price}</p>
-                <div className="flex gap-2 items-center">
-                  <button className="bg-gray-500 h-5 w-5 flex justify-center items-center py-2" onClick={()=>dispatch(updateQuantity({type:'dec',id:c.id}))}>
-                    -
-                  </button>
-                  <p>{c.quantity}</p>
-                  <button className="bg-gray-500  h-5 w-5 flex justify-center items-center py-2" onClick={()=>dispatch(updateQuantity({type:'inc',id:c.id}))}>
-                    +
-                  </button>
-                </div>
-                      <p>Total:${c.totalPrice}</p>
-                      <button className="bg-red-400 p-2 rounded-lg text-white" onClick={()=>dispatch(removeItem({id:c.id}))}>Delete</button>
-              </div>
-            </div>
+             <CartItem data={c}/>
           ))}
           </div>
           <div className="flex flex-col mt-8 gap-8 ">

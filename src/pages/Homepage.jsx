@@ -15,7 +15,6 @@ const Homepage = () => {
         <button onClick={()=>navigate('/products')} className='bg-green-400 p-2 rounded-sm capitalize text-white hover:opacity-80'>get started</button>
         </div>
         <About/>
-         
     </div>
   )
 }

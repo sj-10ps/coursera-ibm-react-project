@@ -7,7 +7,6 @@ const About = () => {
            <p className=' text-slate-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis, exercitationem, suscipit dolorum sunt illum voluptas quaerat aliquam molestias quibusdam quasi. A fuga et maxime aliquid temporibus similique suscipit eum.</p>
                       <p className=' text-slate-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis, exercitationem, suscipit dolorum sunt illum voluptas quaerat aliquam molestias quibusdam quasi. A fuga et maxime aliquid temporibus similique suscipit eum.</p>
            <p className=' text-slate-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis, exercitationem, suscipit dolorum sunt illum voluptas quaerat aliquam molestias quibusdam quasi. A fuga et maxime aliquid temporibus similique suscipit eum.</p>
-
         </div>
   )
 }
