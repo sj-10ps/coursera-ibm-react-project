@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Lavender",
-    "type": "aromatic",
+    "category": "Aromatic",
     "price": "12",
     "description": "Soothing floral aroma",
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Lavender_flowers.jpg"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Peppermint",
-    "type": "aromatic",
+    "category": "Aromatic",
     "price": "10",
     "description": "Refreshing minty scent",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Peppermint_Plant.jpg"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Eucalyptus",
-    "type": "purifying",
+    "category": "Air Purifying",
     "price": "15",
     "description": "Clearing and fresh",
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Eucalyptus_tree.jpg"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Tea Tree",
-    "type": "purifying",
+    "category": "Air Purifying",
     "price": "14",
     "description": "Natural cleansing properties",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tea_tree_plant.jpg"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Rosemary",
-    "type": "aromatic",
+    "category": "Aromatic",
     "price": "11",
     "description": "Herbal invigorating scent",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rosemary-7560.jpg"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Lemongrass",
-    "type": "purifying",
+    "category": "Air Purifying",
     "price": "13",
     "description": "Fresh citrusy aroma",
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lemongrass_(Cymbopogon_citratus).jpg"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Chamomile",
-    "type": "aromatic",
+    "category": "Aromatic",
     "price": "12",
     "description": "Calming and relaxing",
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Chamomile_flowers.jpg"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Sandalwood",
-    "type": "purifying",
+    "category": "Air Purifying",
     "price": "18",
     "description": "Warm and woody scent",
     "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Indian_sandalwood_Plant.jpg"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Bergamot",
-    "type": "aromatic",
+    "category": "Aromatic",
     "price": "16",
     "description": "Citrusy and uplifting",
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bergamot_plants.jpg"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Cedarwood",
-    "type": "purifying",
+    "category": "Air Purifying",
     "price": "14",
     "description": "Earthy and grounding aroma",
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cedar_Tree_(7853418286).jpg"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "Ylang Ylang",
-    "type": "aromatic",
+    "category": "Aromatic",
     "price": "20",
     "description": "Sweet and floral",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ylang_ylang_flowers_-Cananga_odorata.jpg"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Clary Sage",
-    "type": "purifying",
+    "category": "Air Purifying",
     "price": "17",
     "description": "Herbal, fresh, and clarifying",
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Salvia_sclarea.jpg"
